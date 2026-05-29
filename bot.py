@@ -93,13 +93,19 @@ async def send_album(group_id, context):
 # XỬ LÝ TIN NHẮN
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    msg = update.message
+
+    # nhận cả bài đăng từ channel
+    msg = update.message or update.channel_post
 
     if not msg:
         return
 
+    print("CHAT ID:", msg.chat_id)
+
+    # chỉ nhận từ kênh nguồn
     if msg.chat_id != SOURCE_CHAT_ID:
         return
+
 
     
     # ALBUM
