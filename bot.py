@@ -5,17 +5,17 @@ import re
 
 TOKEN = "8571783970:AAH-yEE4Mc6sZMrOcNi-snEIcDx3uKmlFwY"
 
-SOURCE_CHAT_ID = -1001680236501
+SOURCE_CHAT_ID = -1003432834888
 
 TARGET_CHANNELS = [
-    -1003764974352
+    -1003986554402
 ]
 
 media_groups = {}
 media_tasks = {}
 
 
-# XÓA USERNAME + LINK
+# XÓA USERNAME + LINK 
 def clean_text(text):
     if not text:
         return ""
