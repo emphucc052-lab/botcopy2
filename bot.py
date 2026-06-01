@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 import asyncio
 import re
 
-TOKEN = "8571783970:AAH-yEE4Mc6sZMrOcNi-snEIcDx3uKmlFwY"
+TOKEN = " 8571783970 :AAGTeagJnjzpX7ebNrdeaQHBpLIP51zci5Y"
 
 SOURCE_CHAT_ID = -1001680236501
 
